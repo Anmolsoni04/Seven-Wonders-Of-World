@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>7 Wonders of the World</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Wonders of the World</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav a {
+            display: inline-block;
+            padding: 14px 20px;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            text-align: center;
+            padding: 20px;
+        }
+        section img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 50%;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        section img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </header>
-
-  <section class="hero">
-    <h1>Welcome to the 7 Wonders of the World</h1>
-    <p>Click on a wonder to explore more about it!</p>
-  </section>
-
-  <section class="wonders">
-    <h2>The 7 Wonders</h2>
-    <div class="bubbles">
-      <a href="great-wall.html" class="bubble" id="great-wall">
-        <img src="assets/images/1.png" alt="Great Wall of China"> 
-      </a>
-      <a href="christ-redeemer.html" class="bubble" id="christ-redeemer">
-        <img src="assets/images/2.png" alt="Christ the Redeemer">
-      </a>
-      <a href="machu-picchu.html" class="bubble" id="machu-picchu">
-        <img src="assets/images/3.png" alt="Machu Picchu">
-      </a>
-      <a href="chichen-itza.html" class="bubble" id="chichen-itza">
-        <img src="assets/images/4.png" alt="Chichen Itza">
-      </a>
-      <a href="colosseum.html" class="bubble" id="colosseum">
-        <img src="assets/images/5.png" alt="Roman Colosseum">
-      </a>
-      <a href="taj-mahal.html" class="bubble" id="taj-mahal">
-        <img src="assets/images/6.png" alt="Taj Mahal">
-      </a>
-      <a href="petra.html" class="bubble" id="petra">
-        <img src="assets/images/7.png" alt="Petra">
-      </a>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 7 Wonders of the World. All Rights Reserved.</p>
-  </footer>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <section>
+        <h1>Welcome to the 7 Wonders of the World</h1>
+        <p>Click on a wonder to explore more about it!</p>
+        <a href="great-wall.html"><img src="assets/images/1.png" alt="Great Wall of China"></a>
+        <a href="christ-redeemer.html"><img src="assets/images/2.png" alt="christ-redeemer"></a>
+        <a href="machu-picchu.html"><img src="assets/images/3.png" alt="machu-picchu"></a>
+        <a href="chichen-itza.html"><img src="assets/images/4.png" alt="chichen-itza"></a>
+        <a href="colosseum.html"><img src="assets/images/5.png" alt="colosseum"></a>
+        <a href="taj-mahal.html"><img src="assets/images/6.png" alt="Taj Mahal"></a>
+        <a href="petra.html"><img src="assets/images/7.png" alt="Petra"></a>
+    </section>
+    <footer>
+        <p>&copy; 2025 Seven Wonders. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
